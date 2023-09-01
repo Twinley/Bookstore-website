@@ -1,0 +1,270 @@
+
+.nav-item:hover{
+
+    background-color: #E57C23;
+    border-radius: 5px;
+
+}
+
+#btn{
+
+    color: white;
+    background-color: transparent;
+
+    border-color:transparent;
+}
+
+#fldCBackground{
+
+    background-image:url(./assets/images/old-books.jpg);
+   height: 500px;
+   width: 100%;
+   margin-top: 3%;
+   
+}
+
+#fldcategory{
+
+    margin-top:5%;
+    margin-left: 15px;
+}
+
+   
+
+#fldbooks{
+
+    margin-top: 10%;
+    margin-left: 15px;
+}
+
+#fldcategory{
+
+    color: white;
+
+    font-size: larger;
+
+}
+
+#category{
+
+    border-color: orange;
+    border-radius: 5px;
+
+}
+
+.form-control{
+
+    width: 50%;
+}
+
+#fldbookBackground{
+
+    background-color: rgba(255, 140, 0, 0.079);
+      
+    width: 100%;
+   
+    
+    
+}
+
+
+#background2{
+
+    background-color:aqua;
+    height: 487px;
+    margin-top: -4%;
+    margin-left: 46%;
+    opacity: 50%;
+
+
+}
+#headtext{
+
+
+    color: white;
+
+
+}
+
+
+.form-group{
+
+    width: 50%;
+}
+
+#btn2{
+
+   margin-left: -50%;
+   margin-right: 50%;
+   
+}
+
+#txtName{
+
+   
+    width: 24%;
+    display: inline-block;
+    margin-left: 1.5%;
+
+
+  
+}
+
+#txtName2{
+
+    width: 24%;
+     display: inline-block;
+
+}
+
+#maintext{
+
+    margin-top: -50%;
+    margin-left: 50%;
+}
+
+
+.box2 {
+    background-color:#e57e236b;
+    color: #fff;
+    height: 100%;
+    margin-left: 50%;
+   
+ 
+    padding: 5%;
+ 
+    
+    
+
+}
+
+#comp-jdybi5rk{
+
+    margin-left: 10%;
+     padding-top: 10%;
+
+}
+ .col{
+
+  margin: 35px;
+  float: left;
+  align-items: center;
+
+}
+
+#footer{
+
+    background-color: #F8F1F1;
+       
+}
+
+#button{
+
+    background-color: #E57C23;
+    color: white;
+    border-color: transparent;
+}
+
+
+
+     
+
+
+#btn2{
+
+    background-color: #E57C23;
+   border-color: #E57C23;
+}
+
+
+#form{
+    background-color: rgba(255, 140, 0, 0.079);
+    margin-bottom: 2%;
+}
+
+#title{
+
+
+   
+   color: white;
+   
+
+}
+
+#containertxt{
+
+    width: 100%;
+
+}
+
+
+#title{
+    margin-top: 5%;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: oblique;
+    text-align:center;
+}
+
+.heading{
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    
+    font-size: xx-large;
+  
+  
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+#contact,#About, .backgroundClr{
+
+    background-color: rgba(255, 140, 0, 0.079);
+
+    
+
+}
+
+#txtFeedback{
+
+    padding-bottom: 20%;
+
+
+}
+#fdbk{
+font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+#btn3{
+
+    
+    margin-right: 100%;
+
+    margin-left: -50%;
+    
+ 
+    
+    background-color:#E57C23;
+    border:#E57C23;
+    margin-bottom: 10%;
+    
+}
+
+
+
+
+
+
+
+
+
+    
+   
+
+

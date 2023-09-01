@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Order</title>
+    <script type="text/javascript" src="/script.js"> </script>
+    <link rel="stylesheet" href="style.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body id="form">
+  
+    <fieldset>
+        <div class="container-fluid">
+        <legend>Order</legend>
+        <p>Enter your details and the name of the book you want to order below</p>
+
+ <form method="post" action="./success.html">
+        <div class="">
+            <label for="txtMod1">Name</label>
+            
+            <br>
+            <input id="txtName2" type="text" class="form-control" name="txtMod1" id="txtMod1" placeholder="First name">
+          
+            <input id="txtName" type="text" class="form-control" name="txtMod2" id="txtMod2" placeholder="Last name" title="" >
+            
+     
+        
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <br>
+        <div class="form-group ">
+            <fieldset id="drpdown">
+                <label for="dropdown">Choose your book:</label>
+                <select  class="form-control" name="dropdown" id="dropdown"> 
+                    <option value="Illness lesson">Illness lesson</option>
+                    <option value="Harry Potter">Harry Potter</option>
+                    <option value="How to think bigger and better">How to think bigger and better</option>
+                    <option value="">Follow me to ground</option>
+                    <option value="">One piece volume 61</option>
+                    <option value=""> I will always love you</option>
+                    <option value="">Lu's Father</option>
+                    <option value="">Avengers</option>
+
+
+                </select>
+
+
+            </fieldset>
+       
+        <br>
+    <form method="post" name="Preference" id="Preference" action="">
+	    <div> <legend>Preference</legend><br />
+	    <input type="radio" name="want" id="ic_yes" value="yes" onclick="deliveryOpt()" />
+	    <label for="ic_yes"> Delivery</label>
+	
+	    <input type="radio" name="want" id="ic_no" value="no" onclick="deliveryOpt()" checked />
+	    <label for="ic_no"> Ebook</label>
+	    </div>
+
+        
+        <fieldset id="deliveryoptions" style="display: none;">
+            <legend>Delivery Options</legend>
+
+            <label for="txtAdd">Address</label>
+            <input class="form-control" type="text" name="adress" id="txtAdd">
+        
+          
+        </fieldset>
+    </div> 
+        <br>
+        <fieldset>
+            <legend>Location</legend>
+            <input type="radio" name="Location" id="Rodrigues" checked>
+            <label for="Rodrigues">Rodrigues</label>
+
+            
+            <input type="radio" name="Location" id="Mauritius" >
+            <label for="Mauritius">Mauritius</label>
+
+
+        </fieldset>
+<br>
+        <fieldset>
+
+            <legend>Packaging</legend>
+
+            <form method="post" name="Packaging" id="Packaging" action="">
+                <div> <br />
+                <input type="radio" name="pack" id="ord" value="no" onclick="wrapping()" checked/>
+                <label for="ord"> Ordinary</label>
+                
+                <input type="radio" name="pack" id="gif" value="yes" onclick="wrapping()" />
+                <label for="gif"> Gift</label>
+                </div>
+                
+             
+
+                    
+                
+                  
+                </fieldset>
+
+                <fieldset id="Wrapcolor" style="display: none">
+
+                   <br>
+                    <label for="">wrapping color</label>
+                    <div class="form-group">
+                     <select class="form-control"  name="Color" id="color">
+                       <option value="Red">Red</option>
+                       <option value="Blue">Blue</option>
+                       <option value="Yellow">Yellow</option>
+                       <option value="Green">Green</option>
+                       <option value="no wrapping">No wrapping</option>
+
+                       
+
+
+                    
+                    </div>
+
+                     </select>
+                     <br>
+
+                     <label for="">Recipient name</label>
+                     <input class="form-control" type="text" name="" id="">
+
+                </fieldset>
+                
+
+
+            
+      
+        <br>
+    
+        
+
+        <div  class="d-grid gap-2 col-6 mx-auto">
+            <input id="btn2" class="btn btn-primary" type="submit" name="order" id="order" value="order">
+           
+        </div>
+    </div>
+    </fieldset>
+</form>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
